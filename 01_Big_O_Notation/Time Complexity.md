@@ -45,3 +45,24 @@ for(int i = 0; i < n; i++) {
 O($2^n$) -- Exponential time (e.g., recursive Fibonacci)
 Extremely slow. Input size = death.
 
+------
+
+Big O (O) -- Worst case
+- Describes the upper bound
+- Tells us how bad it can get ("It won't be slower than this.")
+- Example: (in linear search)
+  - Best case -- found at index 0 (O(1))
+  - Worst case -- found at last or not found at all --> O(n)
+
+Omega (Ω) -- Best case
+- Describes the lower bound
+- Tells us how fast it can be ("It will be at least this fast")
+- Example: (in linear search)
+  - Best case is if the item is at the beginning  --> Ω(1)
+
+Theta (Θ) - Average / Tight bound
+- Describe both lower and upper bounds
+- Tells us the exact growth rate, when best and worst cases are the same ("It will always be this, give or take")
+- Example: 
+  - If a function takes exactly 3n + 2 time, it's Θ(n)
+
