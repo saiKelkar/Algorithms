@@ -1,3 +1,30 @@
+Running Time -- (of an algorithm) is the period during which the computer is executing, and typically grows with the input size.
+
+Average case runtime may be difficult to determine, and best case runtime is not really considered. 
+
+Growth of functions:
+Seven functions that describe growth of functions that often appear in algorithm analysis:
+constant = 1
+logarithmic = log n
+linear = n
+n-log-n = n log n
+quadratic = $n^2$
+cubic = $n^3$
+exponential = $2^n$
+
+![[Pasted image 20250703115806.png]]
+
+Primitive operations:
+- basic computations performed by an algorithm
+- identifiable in pseudocode
+- largely independent from the programming language
+- example:
+  - evaluating an expression
+  - assigning a value to a variable
+  - calling a method
+  - returning from a method
+- these functions are considered to run in O(1) time
+
 ![[Pasted image 20250703011944.png]]
 
 Big O notation -- how we measure how efficient an algorithm is, especially as the input size grows
@@ -49,6 +76,7 @@ Extremely slow. Input size = death.
 
 Big O (O) -- Worst case
 - Describes the upper bound
+- Easier to analyse and approximate
 - Tells us how bad it can get ("It won't be slower than this.")
 - Example: (in linear search)
   - Best case -- found at index 0 (O(1))
@@ -65,4 +93,6 @@ Theta (Θ) - Average / Tight bound
 - Tells us the exact growth rate, when best and worst cases are the same ("It will always be this, give or take")
 - Example: 
   - If a function takes exactly 3n + 2 time, it's Θ(n)
+
+
 
