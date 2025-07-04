@@ -31,8 +31,8 @@ Big O notation -- how we measure how efficient an algorithm is, especially as th
 (answers the question -- If I double the size of the input, how much more time or memory will my algorithm use?)
 
 Big O measures:
-- Time complexity -- how long it takes to run
-- Space complexity -- how much memory it uses
+- Time complexity -- how long it takes to run - CPU time
+- Space complexity -- how much memory it uses - main memory
 This is expressed in terms of n (n -- size of input)
 
 O(1) -- Constant time (e.g., accessing an array element)
